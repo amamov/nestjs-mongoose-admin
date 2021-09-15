@@ -1,10 +1,7 @@
 {
   "name": "nestjs-mongoose-admin",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "Nestjs Mongoose Admin Site Demo",
+  "author": "Yoon Sang Seok",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -21,9 +18,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@adminjs/express": "^4.0.0",
+    "@adminjs/mongoose": "^2.0.0",
+    "@adminjs/nestjs": "^3.0.0",
     "@nestjs/common": "^8.0.0",
+    "@nestjs/config": "^1.0.1",
     "@nestjs/core": "^8.0.0",
+    "@nestjs/mongoose": "^8.0.1",
     "@nestjs/platform-express": "^8.0.0",
+    "adminjs": "^5.2.1",
+    "mongoose": "^5.13.9",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
